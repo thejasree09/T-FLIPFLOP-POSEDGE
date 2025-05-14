@@ -28,15 +28,30 @@ From the above characteristic table, we can directly write the next state equati
 
 **Procedure**
 
-/* write all the steps invloved */
+Design the T flip-flop module in Verilog with inputs T, clk and outputs Q, Qbar.
+
+Use always @(posedge clk) to toggle Q when T = 1, and retain Q when T = 0.
+
+Develop a testbench to apply different T values synchronized with clock pulses.
+
+Simulate the module and observe the outputs (Q, Qbar) at each clock edge.
+
+Compare the simulated results with the T flip-flop truth table for validation.
+
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+![program](https://github.com/user-attachments/assets/3b51a5a5-3c27-4a5a-865b-b0c86f762b46)
+
 
 **RTL LOGIC FOR FLIPFLOPS**
 
+![simulation](https://github.com/user-attachments/assets/0825c987-a5c7-4879-bbce-6dc9ce562fa3)
+
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
+![waveform](https://github.com/user-attachments/assets/e686b9d4-3c2f-421b-a050-c51ec6274278)
+
 **RESULTS**
+
+The T flip-flop was successfully implemented and verified in Verilog, with outputs conforming to its functional truth table.
